@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mawdo Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <img src="natin logo.png" alt="school Logo" class="logo">
+</head>
+<body>
+    <header>
+        <h1>Mawdo Isaiah</h1>
+        <p>motivatie komt van jezelf</p>
+        <nav>
+            <ul>
+                <li><a href="#about">over mij</a></li>
+                <li><a href="#languages">Programmeertalen</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Over Mij</h2>
+        <div class="container">
+            <img src="mawdo.jpg.jpg" alt="mawdo" class="centered-picture">
+        <p>Mijn naam is Mawdo Isaiah, en zit momenteel op het Natin. Ik studeer ICT op het NATIN omdat het iets is wat ik sinds kleinsaf wilde doen vandaar dat ik voor ICT heb gekozen. 
+            ik ben iemand die van geld houdt omdat het mij motiveert en dat is een van mijn hobbies.</p>
+    </section>
+
+    <section id="languages">
+        <h2>Programmeertalen</h2>
+        <ul>
+            <li><strong>JavaScript:</strong> het basiskennis dat ik heb van JavaScript heb ik toegepast om dit webpagina te creëren.</li>
+            <li><strong>Python:</strong> Ik ben een beginner in Python en heb deze taal gebruikt voor het schrijven van eenvoudige scripts en het uitvoeren van basisgegevensanalyses.</li>
+            <li><strong>CSS:</strong> Ik heb een goed begrip van CSS en gebruik het voor het stylen van webpagina's, het creëren van lay-outs, en het zorgen voor responsieve websites.</li>
+            <li><strong>HTML:</strong> Ik ben vertrouwd met HTML voor het structureren van webinhoud en heb het gebruikt om eenvoudige webpagina's te bouwen.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projecten</h2>
+        <div class="project">
+            <h3>Persoonlijke Blog</h3>
+            <h4>Online Portfolio Website</h4>
+            <p> Beschrijving: Een persoonlijke portfoliowebsite die je werk en projecten toont. 
+                De website bevat een overzichtelijke homepage met een introductie, een sectie voor projecten met afbeeldingen en beschrijvingen, en een contactformulier.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project">
+            <h3>Receptenzoeker</h3>
+            <p>Beschrijving: Een webapplicatie waarmee gebruikers recepten kunnen zoeken op basis van ingrediënten.
+                 Gebruikers kunnen hun favoriete recepten opslaan en een boodschappenlijst genereren.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project">
+            <h3> Persoonlijk Budget Dashboard</h3>
+            <p>Beschrijving: Een webapplicatie voor het bijhouden en beheren van persoonlijke uitgaven en budgetten.
+                 Gebruikers kunnen hun inkomsten en uitgaven invoeren, budgetten instellen en grafieken bekijken van hun financiële situatie.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript, API-integratie</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Verzenden</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
